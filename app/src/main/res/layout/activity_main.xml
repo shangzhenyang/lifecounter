@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/Layout"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/Layout"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+
+            <LinearLayout
+                android:id="@+id/button_bar_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_minus_1"
+                    style="@style/Buttons"
+                    android:text="@string/minus" />
+
+                <Button
+                    android:id="@+id/btn_plus_1"
+                    style="@style/Buttons"
+                    android:text="@string/plus" />
+
+                <Button
+                    android:id="@+id/btn_minus_five_1"
+                    style="@style/Buttons"
+                    android:text="@string/minus_five" />
+
+                <Button
+                    android:id="@+id/btn_plus_five_1"
+                    style="@style/Buttons"
+                    android:text="@string/plus_five" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/player_score_1"
+                style="@style/ScoreLabel" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Layout"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+
+            <LinearLayout
+                android:id="@+id/button_bar_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_minus_2"
+                    style="@style/Buttons"
+                    android:text="@string/minus" />
+
+                <Button
+                    android:id="@+id/btn_plus_2"
+                    style="@style/Buttons"
+                    android:text="@string/plus" />
+
+                <Button
+                    android:id="@+id/btn_minus_five_2"
+                    style="@style/Buttons"
+                    android:text="@string/minus_five" />
+
+                <Button
+                    android:id="@+id/btn_plus_five_2"
+                    style="@style/Buttons"
+                    android:text="@string/plus_five" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/player_score_2"
+                style="@style/ScoreLabel" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Layout"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/Layout"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+
+            <LinearLayout
+                android:id="@+id/button_bar_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_minus_3"
+                    style="@style/Buttons"
+                    android:text="@string/minus" />
+
+                <Button
+                    android:id="@+id/btn_plus_3"
+                    style="@style/Buttons"
+                    android:text="@string/plus" />
+
+                <Button
+                    android:id="@+id/btn_minus_five_3"
+                    style="@style/Buttons"
+                    android:text="@string/minus_five" />
+
+                <Button
+                    android:id="@+id/btn_plus_five_3"
+                    style="@style/Buttons"
+                    android:text="@string/plus_five" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/player_score_3"
+                style="@style/ScoreLabel" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Layout"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+
+            <LinearLayout
+                android:id="@+id/button_bar_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_minus_4"
+                    style="@style/Buttons"
+                    android:text="@string/minus" />
+
+                <Button
+                    android:id="@+id/btn_plus_4"
+                    style="@style/Buttons"
+                    android:text="@string/plus" />
+
+                <Button
+                    android:id="@+id/btn_minus_five_4"
+                    style="@style/Buttons"
+                    android:text="@string/minus_five" />
+
+                <Button
+                    android:id="@+id/btn_plus_five_4"
+                    style="@style/Buttons"
+                    android:text="@string/plus_five" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/player_score_4"
+                style="@style/ScoreLabel" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</LinearLayout>

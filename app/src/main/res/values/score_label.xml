@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="ScoreLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:text">@string/twenty</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">34dp</item>
+    </style>
+</resources>
